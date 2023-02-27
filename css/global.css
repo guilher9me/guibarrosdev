@@ -1,10 +1,13 @@
 body {
-  font-family: 'Fira Sans', Arial, sans-serif;
+  font-family: "Fira Sans", Arial, sans-serif;
   margin: 0px;
   color: #141414;
 }
 
-h1, h2, h3, p {
+h1,
+h2,
+h3,
+p {
   margin: 0px;
 }
 
@@ -12,6 +15,15 @@ ul {
   margin: 0px;
   padding: 0px;
   list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.empresa a:hover {
+  color: #933d43;
 }
 
 img {
@@ -25,7 +37,8 @@ img {
   padding: 30px;
 }
 
-h1, p {
+h1,
+p {
   display: grid;
   place-content: center;
 }
